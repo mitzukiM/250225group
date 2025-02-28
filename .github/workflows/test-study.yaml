@@ -13,7 +13,7 @@ jobs:
       - name: Welcome part
         run: echo "Hello,guys :> "
       - name: Get info
-        run:
+        run: |
           echo "Getting comp info ... "
           whoami
           sleep 5
